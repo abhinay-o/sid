@@ -1,0 +1,492 @@
+@media (min-width: 1025px) { 
+    body {
+        background: radial-gradient(circle, rgb(31, 38, 53), rgb(10, 15, 30));
+        color: rgb(226, 170, 76);
+    }
+
+    #insta{
+        position: relative;
+       margin-left: 5%;
+      display:flex;
+      gap: 2%;
+     ;
+    }
+    h1:hover {
+        text-shadow: 1px 1px 2px wheat;
+    }
+
+    #page1 img {
+        position: relative;
+        left: 40%;
+        height: 350px;
+        width: 300px;
+    }
+
+    #para h2 {
+        font-size: 24px;
+        font-weight: bold;
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+
+    #para h2:hover {
+        text-shadow: 1px 1px 2px wheat;
+    }
+
+    #nav {
+        background-color: rgba(31, 38, 53, 0.9);
+        padding: 5px;
+        height: 90px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 2%;
+    }
+
+    #nav ul {
+        text-align: center;
+    }
+
+    #nav ul li a {
+        text-decoration: none;
+        color: rgb(226, 170, 76);
+    }
+
+    #nav ul li a:hover {
+        box-shadow: 2px 2px 5px wheat;
+    }
+
+    #para {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rupee-circle {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgb(226, 170, 76);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        left: 40%;
+    }
+
+    #money {
+        height: 160px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        right: 7%;
+    }
+
+    #money p {
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #money1 {
+        position: relative;
+        left: 15%;
+    }
+
+    #money2 {
+        position: relative;
+        left: 20%;
+    }
+
+    #money3 {
+        position: relative;
+        left: 25%;
+    }
+
+    #money4 {
+        position: relative;
+        left: 30%;
+    }
+
+    #page1 > p {
+        height: 30px;
+        width: 77px;
+        position: absolute;
+        left: 47%;
+    }
+
+    #h2new {
+        position: absolute;
+        left: 39%;
+    }
+
+    #img2 img {
+        height: 160px;
+        width: 160px;
+    }
+
+    #page2 > h2 {
+        position: relative;
+        margin-left: 15%;
+    }
+
+    #page2 > h3 {
+        width: 96%;
+        color: rgb(226, 170, 76);
+        position: relative;
+        right: 10%;
+        left: 3%;
+    }
+
+    #page2 > h2:hover {
+        text-shadow: 1px 1px 3px wheat;
+    }
+
+    #page3 {
+        display: flex;
+        position: relative;
+        left: 5%;
+        width: 80%;
+    }
+
+    #page3 img {
+        height: 500px;
+        width: 55%;
+        display: inline;
+        border: 5px solid #e6c659;
+    }
+
+    #page3 img:hover {
+        box-shadow: 2px 2px 10px wheat;
+    }
+
+    #content {
+        display: block;
+    }
+
+    #content h1 {
+        position: relative;
+        left: 30%;
+        top: 10%;
+    }
+
+    #content h2 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: 10%;
+    }
+
+    #page4 {
+        width: 95%;
+        height: 800px;
+        position: relative;
+        left: 3%;
+    }
+
+    .imgpage4 {
+        height: 500px;
+        width: 100%;
+        display: flex;
+    }
+
+    .imgpage4 img {
+        height: 500px;
+        width: 49%;
+        border: 5px solid #e6c659;
+    }
+
+    #page4content {
+        display: flex;
+        height: inherit;
+        width: inherit;
+    }
+
+    #page4content h1 {
+        position: relative;
+        left: 10%;
+        top: 15%;
+        text-align: center;
+    }
+
+    #page4content h2 {
+        position: relative;
+        left: 19%;
+        top: 10%;
+        text-align: center;
+    }
+
+    #page4 img:hover {
+        box-shadow: 2px 2px 10px wheat;
+    }
+
+    #page5 {
+        display: flex;
+    }
+
+    #page5 img {
+        position: relative;
+        left: 10%;
+        height: 400px;
+        width: 35%;
+        border: 5px solid #e6c659;
+    }
+
+    #page5 img:hover {
+        box-shadow: 2px 2px 10px wheat;
+    }
+
+    #page5 h1 {
+        position: relative;
+        left: 30%;
+        top: 20%;
+    }
+
+    #page5 h2 {
+        position: relative;
+        top: 30%;
+        left: 10%;
+    }
+
+    #page6 {
+        display: flex;
+    }
+
+    #page6 img {
+        position: relative;
+        left: 10%;
+        height: 500px;
+        width: 25%;
+        border: 5px solid #e6c659;
+    }
+
+    #page6 img:hover {
+        box-shadow: 2px 2px 10px wheat;
+    }
+
+    #page6 h1 {
+        position: relative;
+        left: 40%;
+        top: 20%;
+    }
+
+    #page6 h2 {
+        position: relative;
+        top: 30%;
+        left: 10%;
+    }
+
+    #page7 {
+        display: flex;
+    }
+
+    #page7 img {
+        position: relative;
+        left: 5%;
+        height: 400px;
+        width: 35%;
+        border: 5px solid #e6c659;
+    }
+
+    #page7 img:hover {
+        box-shadow: 2px 2px 10px wheat;
+    }
+
+    #page7 h1 {
+        position: relative;
+        left: 50%;
+        top: 15%;
+    }
+
+    #page7 h2 {
+        position: relative;
+        top: 20%;
+        left: 20%;
+    }
+
+    #page8 {
+        position: relative;
+        width: 90%;
+    }
+
+    #page8 h1 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: 5%;
+    }
+
+    #page8content {
+        text-align: center;
+        position: relative;
+        left: 5%;
+    }
+
+    #page8 h2 {
+        position: relative;
+        left: 5%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #nav ul {
+        margin-left: 4%;
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+
+    #nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 1024px) { 
+    /* ===== General Styles ===== */
+    body {
+        background: radial-gradient(circle, rgb(31, 38, 53), rgb(10, 15, 30));
+        color: rgb(226, 170, 76);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* ===== Headings Styling ===== */
+    h1, h2 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    h1:hover, h2:hover {
+        text-shadow: 1px 1px 2px wheat;
+    }
+
+    /* ===== Mobile Navigation Bar ===== */
+    #nav {
+        background-color: rgba(31, 38, 53, 0.9);
+        padding: 10px;
+    }
+
+    #nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #nav ul li {
+        padding: 8px;
+    }
+
+    #nav ul li a {
+        text-decoration: none;
+        color: rgb(226, 170, 76);
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    #nav ul li a:hover {
+        box-shadow: 2px 2px 5px wheat;
+    }
+
+    /* ===== Centering Image Properly ===== */
+    #page1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #page1 img {
+        max-width: 90%;
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    /* ===== Money Section (Fixed Using Grid) ===== */
+    #money {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns for tablets */
+        gap: 20px;
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* ===== Rupee Circle (Properly Aligned) ===== */
+    .rupee-circle {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgb(226, 170, 76);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px auto;
+    }
+
+    /* ===== Page Layout (Flexbox Fix) ===== */
+    #page3, #page4content, #page5, #page6, #page7 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* ===== Images Fix (Properly Responsive) ===== */
+    #page3 img, #page4 .imgpage4 img, #page5 img, #page6 img, #page7 img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border: 5px solid #e6c659;
+        margin: 10px;
+        transition: 0.3s;
+    }
+
+    #page3 img:hover, #page4 img:hover, #page5 img:hover, #page6 img:hover, #page7 img:hover {
+        box-shadow: 2px 2px 10px wheat;
+    }
+
+    /* ===== Small Screen Adjustments (Phones) ===== */
+    @media (max-width: 768px) {
+        /* Mobile Navigation */
+        #money {
+            grid-template-columns: 1fr; /* Stacks items on mobile */
+        }
+
+        /* Reduce Font Size */
+        body {
+            font-size: 14px;
+        }
+
+        h1, h2 {
+            font-size: 18px;
+        }
+
+        /* Image Scaling */
+        #page1 img {
+            width: 90%;
+        }
+
+        #page3 img, #page4 .imgpage4 img, #page5 img, #page6 img, #page7 img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
